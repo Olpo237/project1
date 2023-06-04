@@ -1,121 +1,78 @@
-import React from "react";
-import "./portfolio.css";
-import img1 from "../../assets/img1.png";
-import img2 from "../../assets/img2.png";
-import img3 from "../../assets/img3.png";
-import img5 from "../../assets/img5.png";
-import img6 from "../../assets/img6.png";
-import img7 from "../../assets/img7.png";
-import img8 from "../../assets/img8.png";
-import img9 from "../../assets/img9.png";
-import ListPortfolio from "./listPortfolio";
+import React from 'react'
+import './portfolio.css'
+import IMG1 from '../../assets/img1.jpg'
+import IMG2 from '../../assets/im2.jpg'
+import IMG4 from '../../assets/im4.jpg'
+import IMG5 from '../../assets/im5.jpg'
+import IMG6 from '../../assets/im6.jpg'
+import IMG3 from '../../assets/im3.png'
 
-export const Portfolio = () => {
-  const portfolioContent = [
-    {
-      image : img1,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 1,
-      title:'Project 1'
+const data = [
+    {id: 1,
+     image: IMG1,
+     title: 'Crypto Currency Dashboard & Financial Visualization',
+     github: 'https://github.com',
+     demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'  
     },
-    {
-      image : img2,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 2,
-      title:'Project 2'
-    },
-    {
-      image : img3,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 4,
-      title:'Project 4'
-    },
-    {
-      image : img5,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 5,
-      title:'Project 5'
-    },
-    {
-      image : img6,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 6,
-      title:'Project 6'
-    },
-      {
-      image : img7,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 7,
-      title:'Project 7'
-    },
-    {
-      image : img8,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 8,
-      title:'Project 8'
-    },
-    {
-      image : img9,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 9,
-      title:'Project 9'
-    },
-    {
-      image : img1,
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
-      id: 10,
-      title:'Project 10'
-    },
-  ]
-  return (
-    <section id="portfolio">
-      <h5>My recent work</h5>
-      <h2>Portfolio</h2>
-<ListPortfolio/>  
-      <div className="container portfolio__container">
-      {
-        portfolioContent.map((content, id) =>{
-          return (
-            <article key={id} className="portfolio__item">
-              <div className="portfolio__item__image">
-                <img src={content.image} alt=" one" className="portImage" />
-              </div>
-              <h3> {content.title} </h3>
-              <div className="portfolio__item__cta">
-                <a
-                  href={content.github}
-                  className="btn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github
-                </a>
-                <a
-                  href={content.demo}
-                  className="btn btn-primary"
-                  target="blank"
-                  rel="noreferrer"
-                >
-                  Live Demo
-                </a>
-              </div>
-            </article>
-          );
-        }
-        
-        )
-      }
-      </div>
-    </section>
-  );
-};
-export default Portfolio;
+    {id: 2,
+        image: IMG2,
+        title: 'Crypto Currency Dashboard & Financial Visualization',
+        github: 'https://github.com',
+        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'  
+       },
+       {id: 3,
+        image: IMG3,
+        title: 'Crypto Currency Dashboard & Financial Visualization',
+        github: 'https://github.com',
+        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'  
+       },
+       {id: 4,
+        image: IMG4,
+        title: 'Crypto Currency Dashboard & Financial Visualization',
+        github: 'https://github.com',
+        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'  
+       },
+       {id: 5,
+        image: IMG5,
+        title: 'Crypto Currency Dashboard & Financial Visualization',
+        github: 'https://github.com',
+        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'  
+       },
+       {id: 6,
+        image: IMG6,
+        title: 'Crypto Currency Dashboard & Financial Visualization',
+        github: 'https://github.com',
+        demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'  
+       }]
+
+const Portfolio = () => {
+    return(
+        <section id='portfolio'>
+            <h5>My Recent Work</h5>
+            <h2>Portfolio</h2>
+
+            <div className='container portfolio__container'>
+                {
+                    data.map(({id, image, title, github, demo}) => {
+                        return(
+                            <article key={id} className='portfolio__item' >
+                                <div className='portfolio__item-image'>
+                                    <img src={image} alt={title} />
+                                </div>
+                                <h3>{title}</h3>
+                                <div>
+                                    <a href={github} className='btn' target='_blank'>Github</a>
+                                    <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                                </div>
+                            </article>
+                        )
+                    })
+                }
+                
+
+            </div>
+        </section>
+    )
+}
+
+export default Portfolio
