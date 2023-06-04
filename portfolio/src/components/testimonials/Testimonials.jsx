@@ -5,12 +5,7 @@ import AVTR2 from '../../assets/ava2.png'
 import AVTR3 from '../../assets/ava3.jpg'
 import AVTR4 from '../../assets/ava4.jpg'
 
-import{Pagination} from 'swiper';
 
-import{ Swiper, SwiperSlide} from 'swiper/react';
-
-import 'swiper/css';
-import 'swiper/css/pagination';
 
 const data = [
     {
