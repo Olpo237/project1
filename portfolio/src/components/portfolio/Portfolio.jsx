@@ -10,7 +10,7 @@ import IMG3 from '../../assets/im3.png'
 const data = [
     {id: 1,
      image: IMG1,
-     title: 'Crypto Currency Dashboard & Financial Visualization',
+     title: 'Built my Portfolio',
      github: 'https://github.com',
      demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'  
     },

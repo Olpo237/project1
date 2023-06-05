@@ -11,25 +11,25 @@ const data = [
     {
     avatar: AVTR1,
     name:'Leon Napoleon',
-    review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias similique, praesentium reprehenderit officiis ratione nemo minima ullam dolor sint consequatur? Molestias aliquam ratione quas architecto fugiat tempora voluptatum omnis, commodi debitis dolorum, voluptatem nihil necessitatibus similique doloremque aperiam tenetur. Ipsam.'
+    review: 'I contacted olpo to build me my first professional website and i was very satisfied by his result he is such a good developper.'
     },
 
     {
     avatar: AVTR2,
     name:'Olpo Dominic',
-    review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias similique, praesentium reprehenderit officiis ratione nemo minima ullam dolor sint consequatur? Molestias aliquam ratione quas architecto fugiat tempora voluptatum omnis, commodi debitis dolorum, voluptatem nihil necessitatibus similique doloremque aperiam tenetur. Ipsam.'
+    review: 'Nowadays to find a developper as olpo is dificult, he designed me my first software for the management of my school records.'
     },
 
     {
     avatar: AVTR3,
     name:'Robert Greene',
-    review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias similique, praesentium reprehenderit officiis ratione nemo minima ullam dolor sint consequatur? Molestias aliquam ratione quas architecto fugiat tempora voluptatum omnis, commodi debitis dolorum, voluptatem nihil necessitatibus similique doloremque aperiam tenetur. Ipsam.'
+    review: 'I will recommend to everybody wishing any service to contact Olpo for a fast a precise service .'
     },
 
     {
     avatar: AVTR4,
     name:'Sih Larry',
-    review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias similique, praesentium reprehenderit officiis ratione nemo minima ullam dolor sint consequatur? Molestias aliquam ratione quas architecto fugiat tempora voluptatum omnis, commodi debitis dolorum, voluptatem nihil necessitatibus similique doloremque aperiam tenetur. Ipsam.'
+    review: 'Only one word can describe him, best.'
     },
 
 

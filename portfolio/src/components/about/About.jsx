@@ -25,20 +25,20 @@ const About = () => {
                     <article className='about__card'>
                     <FaAward classNameabout__icon/>
                     <h5>Exeperience</h5>
-                    <small>3+ Years Working</small>
+                    <small>6 Weeks Internship Working</small>
                     </article>
                     <article className='about__card'>
                     <FiUsers classNameabout__icon/>
                     <h5>Clients</h5>
-                    <small>200+ clients</small>
+                    <small>4 clients</small>
                     </article>
                     <article className='about__card'>
                     <VscFolderLibrary classNameabout__icon/>
                     <h5>Projects</h5>
-                    <small>80+ Completed Projects</small>
+                    <small>8 Completed Projects</small>
                     </article>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo consequuntur hic blanditiis rem quos iste exercitationem, corrupti sequi ad accusantium deserunt a, eveniet aliquam sunt ea voluptate aut sint minus. Fuga ex autem velit. Quod corrupti odio exercitationem. Labore consequuntur error, iusto nisi excepturi enim dolorem beatae perspiciatis obcaecati?</p>
+                <p>During my holydays is used to find some intership for me to aquire some experience before graduating from school, and today i can feel like i made a good decision becaus i am really progressing</p>
                 <a href="#contact" className='btn btn-primary'>Let's Talk</a>
             </div>
 
